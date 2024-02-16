@@ -23,7 +23,7 @@ def sum_of_all():
 sum_of_all()
 user_choice = input("Do you want to continue (yes/no)? ")
 
-if user_choice == 'no':
+if user_choice != 'yes':
     print("Thank you for using the program. Exiting.")
 else:
-    print(sum_of_all())
+    sum_of_all()

@@ -5,7 +5,6 @@ def keys_as_list(my_dict):
     keys_list = list(my_dict.keys())
     return keys_list
 
-
 example_dict = {'a': 1, 'b': 2, 'c': 3}
 
 

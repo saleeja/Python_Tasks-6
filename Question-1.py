@@ -30,7 +30,7 @@ dict2 = {'b': 18, 'c': 44}
 
 result_dict = merge_dictionary(dict1, dict2)
 
-print("Merged Dictionary:", result_dict)
+print("Merged Dictionary values:", result_dict)
 
 # output:
 # Key 'b' is overwritten with value 18
