@@ -24,6 +24,6 @@ sum_of_all()
 user_choice = input("Do you want to continue (yes/no)? ")
 
 if user_choice != 'yes':
-    print("Thank you for using the program. Exiting.")
+    print("Thank you for using. Exiting.")
 else:
     sum_of_all()

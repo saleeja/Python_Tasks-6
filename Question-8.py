@@ -16,10 +16,6 @@ def get_user_input():
         # Check if the input contains a number
         if any(char.isdigit() for char in user_input):
             print("The string should not contain numbers.")
-            user_choice = input("Do you want to check another string (yes/no)? ")
-            if user_choice != 'yes':
-                print("Exiting.")
-                return None
 
         else:
             return user_input
@@ -33,3 +29,8 @@ if user_string is not None:
 
     # Print the result
     print(f"Letter count in '{user_string}' is {result_dict}.")
+
+user_choice = input("Do you want to check another string (yes/no)? ")
+if user_choice != 'yes':
+    print("Exiting.")
+    
